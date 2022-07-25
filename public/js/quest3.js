@@ -15,3 +15,14 @@ if (a < b + c && b < a + c && c < b + a) {
 } else {
   alert('Os valores informados não formam um triângulo');
 }
+
+for (const key in object) {
+  if (Object.hasOwnProperty.call(object, key)) {
+    const element = object[key];
+    
+  }
+}
+
+for (const iterator of object) {
+  
+}
