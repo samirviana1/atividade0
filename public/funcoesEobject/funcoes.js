@@ -46,5 +46,11 @@ também deve mostrar no console.log() as notas recebidas. Exemplo
 “Nota 1: 60,Nota 2: 70,Nota 3: 80”.*/
 
 function calcularMedia(nota1, nota2, nota3, nome) {
-    
+    const media = (nota1+nota2+nota3)/3
+    console.log(`${nome}, sua média é ${media.toFixed(2)}`)
+    console.log(`nota 1: ${nota1}`);
+    console.log(`nota 2: ${nota2}`);
+    console.log(`nota 3: ${nota3}`);
 }
+
+calcularMedia(10, 8, 7, 'Samir')
